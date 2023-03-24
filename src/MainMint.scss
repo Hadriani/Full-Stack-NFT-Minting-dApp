@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.wrappermain {
+    background-color: #49401a;
+    min-height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    user-select: none;
+    margin-top: 20px;
+}
+
+.postwrapper {
+    background-image: url("./assets/background/planetcard.jpg");
+    border-radius: 2rem;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+p {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    padding-top: 10px;
+    box-shadow: wheat;
+    text-shadow: 2px 2px 2px #474747;
+    user-select: none;
+    color: #c21981;
+}
+
+label {
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Orbitron';
+    font-weight: 400;
+    letter-spacing: .05em;
+}
+
+.inputnamedescr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label input {
+    display: flex;
+    flex-direction: row;
+}
+
+.primaryheader {
+    background: linear-gradient(to right, #1c4e8e, #c5283d);
+    border-radius: 2rem;
+}
+
+.divmint {
+    padding-top: 10px;
+}
+
+.mintbutton {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial, sans-serif;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 5px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 20%;
+    z-index: 9;
+    border: 0;
+    transition: box-shadow .2s;
+
+        .mintbutton:hover {
+            box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+        }
+}
+
+.etherscan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    text-shadow: 2px 2px 2px #757575;
+    box-sizing: border-box;
+    color: #ffc904;
+    margin-left: 20px;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    white-space: nowrap;
+    cursor: pointer;
+}
