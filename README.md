@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+This minting app was done to mint only once, an NFT, that was deployed on Etherscan address as mentioned here. So in order to use the minting process, my image was uploaded to threeWeb to get the CID code from the image (I didn't created the NFT on threeWeb since I already had a smart contract here, only for IPFS use from an image). Then the NFT metadata was written in combination with another outdated code from 2021. On the home page as you see inside the card, we have "Name" and "Description". The image link with CID from threeWeb was written inside the code, added the rest of the metadata, and on the page, you need to write the name of your NFT, and the description for it. Once you press "Mint NFT" transaction will begin (after confirming it, of course), and the NFT will be minted successfully unto the chain on Sepolia Network. 
+
 In the project directory, you can run:
 
 ### `npm start`
