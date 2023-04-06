@@ -2,7 +2,7 @@
 
 .wrappermain {
     background-color: #49401a;
-    min-height: 200px;
+    min-height: 400px;
     width: 80%;
     margin: 0 auto;
     border-radius: 2rem;
@@ -123,4 +123,14 @@ label input {
     -webkit-user-select: none;
     white-space: nowrap;
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .wrappermain {
+        width: 100%;
+        height: auto;
+    }
+    p {
+        font-size: 18px;
+    }
 }

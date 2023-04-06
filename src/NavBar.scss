@@ -39,7 +39,7 @@ nav {
     justify-content: center;
     top: 0;
     font-size: 14px;
-        height: 60px;
+    height: 60px;
 }
 
 .buttonwrapper {
@@ -75,13 +75,6 @@ nav {
     transition-duration: .1s;
 }
     
-@media (min-width: 768px) {
-    .buttonlogin {
-        padding: 0 2.6rem;
-    }
-}
-    
-
 
 .flex {
     display: flex;
@@ -133,11 +126,23 @@ a {
 }
 
 .social-icons {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     width: fit-content;
+}
+
+@media (max-width: 768px) {
+    .buttonlogin {
+        padding: 0 2.6rem;
+    }
+    .social-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
